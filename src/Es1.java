@@ -13,8 +13,10 @@ public class Es1 {
         String words = (input.nextLine());
         ciccio.add(words);
         }
+        input.close();
         for (String i : ciccio) {
             System.out.println(i);
         }
+            System.out.println(ciccio.size());
     }
 }
